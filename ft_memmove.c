@@ -6,7 +6,7 @@
 /*   By: lboumahd <lboumahd@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/07 14:08:55 by lboumahd          #+#    #+#             */
-/*   Updated: 2024/04/24 13:56:29 by lboumahd         ###   ########.fr       */
+/*   Updated: 2024/04/24 13:21:43 by lboumahd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	unsigned char	*d;
 	size_t			i;
 
-	if (!src && !dst)
-		return (0);
 	s = (unsigned char *)src;
 	d = (unsigned char *)dst;
 	i = 0;
